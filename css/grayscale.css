@@ -60,7 +60,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #efefef;/* #000;*/
+    background-color: #333; /*#efefef;*/ /* #000;*/
 }
 
 .navbar-brand {
@@ -147,6 +147,7 @@ a:focus {
 
 .intro-text {
     font-size: 18px;
+    color: #222;
 }
 
 @media(min-width:767px) {
@@ -242,10 +243,10 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.plans-pricing-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    color: #f4f4f4;
     background: url(../img/type-away.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -265,7 +266,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .plans-pricing-section {
         padding: 100px 0;
     }
 
@@ -304,13 +305,28 @@ a:focus {
     background-color: transparent;
 }
 
-.btn-default1:hover,
+.btn-default1:hover, 
 .btn-default1:focus {
     border: 1px solid #333; /*#3a88fe;*/ /*#28c3ab;*/
     outline: 0;
     color: #f4f4f4; /*#000;*/
     background-color: #333; /*#3a88fe;*/ /*#28c3ab;*/
 }
+
+.btn-gray-solid {
+    border: 1px solid #333; /*#3a88fe;*/ /*#28c3ab;*/
+    color: #f4f4f4; /*#3a88fe;*/ /*#28c3ab;*/
+    background-color:  #333;
+}
+
+.btn-gray-solid:hover, 
+.btn-gray-solid:focus {
+    border: 1px solid #444; /*#3a88fe;*/ /*#28c3ab;*/
+    outline: 0;
+    color: #f4f4f4; /*#000;*/
+    background-color: #444; /*#3a88fe;*/ /*#28c3ab;*/
+}
+
 
 .btn-huge {
     padding: 25px;
@@ -362,4 +378,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+#find-more {
+    margin-top: 40px;
+}
+
+#sign-again2{
+    margin-top: 40px;
+    /*margin-bottom: -150px;*/
+}
+
+
 
