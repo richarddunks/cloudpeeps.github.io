@@ -407,3 +407,11 @@ body {
     margin-top: 0.5em;
     margin-bottom:0.5em;
 }
+
+@media(max-width:991px){ /*767px*/
+    .price-module{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+}
