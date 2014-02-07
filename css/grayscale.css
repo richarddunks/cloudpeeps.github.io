@@ -392,3 +392,16 @@ body {
     width: 300px;
     padding: 1em;
 }
+
+#beta {
+    font-family: 'Lily Script One', cursive;
+    color: #CE0202; /*#fff;*/
+    display: inline;
+}
+
+.price-module{
+    border-radius: 1.666em;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 1.333em 2em;
+}
