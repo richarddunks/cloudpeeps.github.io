@@ -39,7 +39,7 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    color: #5484F2; /*#28c3ab;*/
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -48,7 +48,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #375aa9; /*#176e61;*/
 }
 
 .light {
@@ -395,7 +395,7 @@ body {
 
 #beta {
     font-family: 'Lily Script One', cursive;
-    color: #CE0202; /*#fff;*/
+    color: #5484F2;
     display: inline;
 }
 
@@ -414,4 +414,9 @@ body {
         margin: 0 auto;
         margin-bottom: 1em;
     }
+}
+
+.footer {
+    font-weight: bold;
+    padding: 0.5em 0;
 }
