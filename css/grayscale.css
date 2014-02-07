@@ -420,3 +420,19 @@ body {
     font-weight: bold;
     padding: 0.5em 0;
 }
+
+#mini-logo {
+    /* option1 *//*
+    padding-right: 10px;
+    margin-top: -8px;
+    */
+
+    font-size: 1em;
+    margin-top: -9px;
+    padding: 0 2px;
+}
+
+#text-logo {
+    color: #5484F2;
+}
+
