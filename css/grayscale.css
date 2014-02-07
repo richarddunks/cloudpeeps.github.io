@@ -388,5 +388,7 @@ body {
     /*margin-bottom: -150px;*/
 }
 
-
-
+.main-headshot{
+    width: 300px;
+    padding: 1em;
+}
